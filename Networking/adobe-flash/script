@@ -1,0 +1,4 @@
+#!/bin/bash
+wget http://linuxdownload.adobe.com/adobe-release/adobe-release-i386-1.0-1.noarch.rpm
+yum install adobe-release-i386-1.0-1.noarch.rpm  
+

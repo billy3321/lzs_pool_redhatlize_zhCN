@@ -2,9 +2,10 @@
 [Download]
 urls = https://dl-ssl.google.com/linux/linux_signing_key.pub
 
-#[keyserver keyserver.ubuntu.com]
-#url = keyserver.ubuntu.com
+[keyserver pgp.mit.edu]
+url = pgp.mit.edu
 #id = BC8EBFE8
 #     DA6DEEAA
 #     0624A220
+id = D66B746E
 
