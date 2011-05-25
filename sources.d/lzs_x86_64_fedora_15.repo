@@ -1,0 +1,21 @@
+
+[google]
+name=Google - x86_64
+baseurl=http://dl.google.com/linux/rpm/stable/x86_64
+enabled=1
+gpgcheck=1
+
+[adobe-linux-i386]
+name=Adobe Systems Incorporated
+baseurl=http://linuxdownload.adobe.com/linux/i386/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
+
+[skype]
+name=Skype Repository
+baseurl=http://download.skype.com/linux/repos/fedora/updates/i586/
+#gpgkey=http://www.skype.com/products/skype/linux/rpm-public-key.asc
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-skype
+enabled=1
+gpgcheck=1
